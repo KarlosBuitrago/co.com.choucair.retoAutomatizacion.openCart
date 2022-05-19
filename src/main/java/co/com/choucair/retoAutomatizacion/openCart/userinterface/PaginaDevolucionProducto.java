@@ -13,8 +13,20 @@ public class PaginaDevolucionProducto {
             .located(By.xpath("//*[@id=\"content\"]/div[1]/div/div/a"));
     public static Target CAMPO_ID = Target.the("Campo para ingresar el Id de la devolucion")
             .located(By.id("input-order-id"));
-    public static Target CAMPO_FECHA = Target.the("Campo para ingresar la fecha")
-            .located(By.id("input-date-ordered"));
+//    public static Target CAMPO_FECHA = Target.the("Campo para ingresar la fecha")
+//            .located(By.id("input-date-ordered"));
+    public static Target BOTON_FECHA = Target.the("Campo para ingresar la fecha")
+            .located(By.xpath("//*[@id=\"form-return\"]/fieldset[1]/div[2]/div/div/span/button"));
+    public static Target SUPERIOR_MES_AÑO_ACTUAL = Target.the("Campo para ingresar la fecha")
+            .located(By.xpath("/html/body/div[2]/div/div[1]/table/thead/tr[1]/th[2]"));
+    public static Target SUPERIOR_AÑO = Target.the("Campo para ingresar la fecha")
+            .located(By.xpath("/html/body/div[2]/div/div[2]/table/thead/tr/th[2]"));
+    public static Target SELECCIONAR_AÑO = Target.the("Campo para ingresar la fecha")
+            .located(By.xpath("/html/body/div[2]/div/div[3]/table/tbody/tr/td/span[2]"));
+    public static Target SELECCIONAR_MES = Target.the("Campo para ingresar la fecha")
+            .located(By.xpath("/html/body/div[2]/div/div[2]/table/tbody/tr/td/span[10]"));
+    public static Target SELECCIONAR_DIA = Target.the("Campo para ingresar la fecha")
+            .located(By.xpath("/html/body/div[2]/div/div[1]/table/tbody/tr[3]/td[4]"));
     public static Target CAMPO_CLIENTE = Target.the("Campo para ingresar el cliente")
             .located(By.id("input-customer"));
     public static Target CAMPO_NOMBRE_CLIENTE = Target.the("Campo para ingresar el nombre del cliente")
@@ -45,5 +57,5 @@ public class PaginaDevolucionProducto {
             .located(By.xpath("//*[@id=\"content\"]/div[1]/div/div/button"));
     public static Target MENSAJE = Target.the("Mensaje para validar la devolucion del producto")
             .located(By.xpath("//*[@id=\"content\"]/div[2]/div[1]"));
-    
+
 }
