@@ -1,0 +1,23 @@
+
+o
+java:S1104
+"YMake CAMPO_USUARIO a static final constant or non-public and provide accessors if needed.(à¤ùà
+x
+java:S1104"]Make CAMPO_CONTRASEÃ‘A a static final constant or non-public and provide accessors if needed.(×óâ»ÿÿÿÿÿ
+m
+java:S1104"WMake BOTON_LOGIN a static final constant or non-public and provide accessors if needed.(É’Ö§
+I
+java:S1444
+"3Make this "public static CAMPO_USUARIO" field final(à¤ùà
+R
+java:S1444"7Make this "public static CAMPO_CONTRASEÃ‘A" field final(×óâ»ÿÿÿÿÿ
+G
+java:S1444"1Make this "public static BOTON_LOGIN" field final(É’Ö§
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÈ‰“
+n
+java:S3008
+"XRename this field "CAMPO_USUARIO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¤ùà
+w
+java:S3008"\Rename this field "CAMPO_CONTRASEÃ‘A" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×óâ»ÿÿÿÿÿ
+l
+java:S3008"VRename this field "BOTON_LOGIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É’Ö§

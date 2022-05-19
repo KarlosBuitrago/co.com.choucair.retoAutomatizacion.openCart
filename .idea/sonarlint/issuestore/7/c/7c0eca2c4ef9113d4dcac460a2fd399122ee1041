@@ -1,0 +1,160 @@
+
+s
+java:S1192"]Define a constant instead of duplicating this literal "Campo para ingresar la fecha" 6 times.(¤º¿
+m
+java:S1104"WMake MENU_VENTAS a static final constant or non-public and provide accessors if needed.(îƒ€Ù
+z
+java:S1104
+"_Make DEVOLUCION_PRODUCTO a static final constant or non-public and provide accessors if needed.(«Ó“Õşÿÿÿÿ
+x
+java:S1104"bMake BOTON_NUEVA_DEVOLUCION a static final constant or non-public and provide accessors if needed.(æÀ‹¯
+o
+java:S1104"TMake CAMPO_ID a static final constant or non-public and provide accessors if needed.(š¨ãıÿÿÿÿ
+m
+java:S1104"WMake BOTON_FECHA a static final constant or non-public and provide accessors if needed.(¤º¿
+
+java:S1104"dMake SUPERIOR_MES_AÃ‘O_ACTUAL a static final constant or non-public and provide accessors if needed.(î¯å¼üÿÿÿÿ
+o
+java:S1104"YMake SUPERIOR_AÃ‘O a static final constant or non-public and provide accessors if needed.(¤Ïö
+r
+java:S1104"\Make SELECCIONAR_AÃ‘O a static final constant or non-public and provide accessors if needed.(£¯ÇŞ
+x
+java:S1104"[Make SELECCIONAR_MES a static final constant or non-public and provide accessors if needed.(¢¼Š8—‰ê0
+x
+java:S1104"[Make SELECCIONAR_DIA a static final constant or non-public and provide accessors if needed.(ô½é›8ÀŠê0
+t
+java:S1104"YMake CAMPO_CLIENTE a static final constant or non-public and provide accessors if needed.(½šşŠûÿÿÿÿ
+{
+java:S1104 "`Make CAMPO_NOMBRE_CLIENTE a static final constant or non-public and provide accessors if needed.(‡äíîÿÿÿÿÿ
+x
+java:S1104""bMake CAMPO_APELLIDO_CLIENTE a static final constant or non-public and provide accessors if needed.(ìÏ»‰
+{
+java:S1104$"`Make CAMPO_CORREO_CLIENTE a static final constant or non-public and provide accessors if needed.(œû®Šùÿÿÿÿ
+}
+java:S1104&"bMake CAMPO_TELEFONO_CLIENTE a static final constant or non-public and provide accessors if needed.(ûµÎşÿÿÿÿ
+p
+java:S1104("ZMake CAMPO_PRODUCTO a static final constant or non-public and provide accessors if needed.(£í¥Ö
+n
+java:S1104*"XMake CAMPO_MODELO a static final constant or non-public and provide accessors if needed.(Şœ£
+u
+java:S1104,"ZMake CAMPO_CANTIDAD a static final constant or non-public and provide accessors if needed.(ÇÛØÆüÿÿÿÿ
+y
+java:S1104."cMake CAMPO_MOTIVO_DEVOLUCION a static final constant or non-public and provide accessors if needed.(Ôü¸
+s
+java:S11040"]Make CAMPO_ESTADO_CASO a static final constant or non-public and provide accessors if needed.(“ÕğÏ
+r
+java:S11042"\Make CAMPO_COMENTARIO a static final constant or non-public and provide accessors if needed.(—†êı
+v
+java:S11044"`Make CAMPO_ACCION_RETORNO a static final constant or non-public and provide accessors if needed.(æíşê
+~
+java:S11046"cMake CAMPO_ESTADO_DEVOLUCION a static final constant or non-public and provide accessors if needed.(Ê©óûÿÿÿÿ
+t
+java:S11048"^Make GUARDAR_DEVOLUCION a static final constant or non-public and provide accessors if needed.(±Éå
+n
+java:S1104:"SMake MENSAJE a static final constant or non-public and provide accessors if needed.(°¨¾÷üÿÿÿÿ
+G
+java:S1444"1Make this "public static MENU_VENTAS" field final(îƒ€Ù
+T
+java:S1444
+"9Make this "public static DEVOLUCION_PRODUCTO" field final(«Ó“Õşÿÿÿÿ
+R
+java:S1444"<Make this "public static BOTON_NUEVA_DEVOLUCION" field final(æÀ‹¯
+I
+java:S1444".Make this "public static CAMPO_ID" field final(š¨ãıÿÿÿÿ
+G
+java:S1444"1Make this "public static BOTON_FECHA" field final(¤º¿
+Y
+java:S1444">Make this "public static SUPERIOR_MES_AÃ‘O_ACTUAL" field final(î¯å¼üÿÿÿÿ
+I
+java:S1444"3Make this "public static SUPERIOR_AÃ‘O" field final(¤Ïö
+L
+java:S1444"6Make this "public static SELECCIONAR_AÃ‘O" field final(£¯ÇŞ
+R
+java:S1444"5Make this "public static SELECCIONAR_MES" field final(¢¼Š8—‰ê0
+R
+java:S1444"5Make this "public static SELECCIONAR_DIA" field final(ô½é›8ÂŠê0
+N
+java:S1444"3Make this "public static CAMPO_CLIENTE" field final(½šşŠûÿÿÿÿ
+U
+java:S1444 ":Make this "public static CAMPO_NOMBRE_CLIENTE" field final(‡äíîÿÿÿÿÿ
+R
+java:S1444""<Make this "public static CAMPO_APELLIDO_CLIENTE" field final(ìÏ»‰
+U
+java:S1444$":Make this "public static CAMPO_CORREO_CLIENTE" field final(œû®Šùÿÿÿÿ
+W
+java:S1444&"<Make this "public static CAMPO_TELEFONO_CLIENTE" field final(ûµÎşÿÿÿÿ
+J
+java:S1444("4Make this "public static CAMPO_PRODUCTO" field final(£í¥Ö
+H
+java:S1444*"2Make this "public static CAMPO_MODELO" field final(Şœ£
+O
+java:S1444,"4Make this "public static CAMPO_CANTIDAD" field final(ÇÛØÆüÿÿÿÿ
+S
+java:S1444."=Make this "public static CAMPO_MOTIVO_DEVOLUCION" field final(Ôü¸
+M
+java:S14440"7Make this "public static CAMPO_ESTADO_CASO" field final(“ÕğÏ
+L
+java:S14442"6Make this "public static CAMPO_COMENTARIO" field final(—†êı
+P
+java:S14444":Make this "public static CAMPO_ACCION_RETORNO" field final(æíşê
+X
+java:S14446"=Make this "public static CAMPO_ESTADO_DEVOLUCION" field final(Ê©óûÿÿÿÿ
+N
+java:S14448"8Make this "public static GUARDAR_DEVOLUCION" field final(±Éå
+H
+java:S1444:"-Make this "public static MENSAJE" field final(°¨¾÷üÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÈ‰“
+l
+java:S3008"VRename this field "MENU_VENTAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îƒ€Ù
+y
+java:S3008
+"^Rename this field "DEVOLUCION_PRODUCTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ó“Õşÿÿÿÿ
+w
+java:S3008"aRename this field "BOTON_NUEVA_DEVOLUCION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÀ‹¯
+n
+java:S3008"SRename this field "CAMPO_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¨ãıÿÿÿÿ
+l
+java:S3008"VRename this field "BOTON_FECHA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤º¿
+~
+java:S3008"cRename this field "SUPERIOR_MES_AÃ‘O_ACTUAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¯å¼üÿÿÿÿ
+n
+java:S3008"XRename this field "SUPERIOR_AÃ‘O" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ïö
+q
+java:S3008"[Rename this field "SELECCIONAR_AÃ‘O" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¯ÇŞ
+w
+java:S3008"ZRename this field "SELECCIONAR_MES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¼Š8—‰ê0
+w
+java:S3008"ZRename this field "SELECCIONAR_DIA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô½é›8ÅŠê0
+s
+java:S3008"XRename this field "CAMPO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½šşŠûÿÿÿÿ
+z
+java:S3008 "_Rename this field "CAMPO_NOMBRE_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡äíîÿÿÿÿÿ
+w
+java:S3008""aRename this field "CAMPO_APELLIDO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÏ»‰
+z
+java:S3008$"_Rename this field "CAMPO_CORREO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œû®Šùÿÿÿÿ
+|
+java:S3008&"aRename this field "CAMPO_TELEFONO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûµÎşÿÿÿÿ
+o
+java:S3008("YRename this field "CAMPO_PRODUCTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£í¥Ö
+m
+java:S3008*"WRename this field "CAMPO_MODELO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şœ£
+t
+java:S3008,"YRename this field "CAMPO_CANTIDAD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÛØÆüÿÿÿÿ
+x
+java:S3008."bRename this field "CAMPO_MOTIVO_DEVOLUCION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ôü¸
+r
+java:S30080"\Rename this field "CAMPO_ESTADO_CASO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ÕğÏ
+q
+java:S30082"[Rename this field "CAMPO_COMENTARIO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—†êı
+u
+java:S30084"_Rename this field "CAMPO_ACCION_RETORNO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æíşê
+}
+java:S30086"bRename this field "CAMPO_ESTADO_DEVOLUCION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê©óûÿÿÿÿ
+s
+java:S30088"]Rename this field "GUARDAR_DEVOLUCION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±Éå
+m
+java:S3008:"RRename this field "MENSAJE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°¨¾÷üÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(Ïèıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ˆÖˆ³ÿÿÿÿÿ

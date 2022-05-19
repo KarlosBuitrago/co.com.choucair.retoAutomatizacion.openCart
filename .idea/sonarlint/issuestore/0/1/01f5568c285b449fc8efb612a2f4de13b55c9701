@@ -1,0 +1,92 @@
+
+n
+java:S1104	"YMake MENU_CLIENTES a static final constant or non-public and provide accessors if needed.(´Äín
+q
+java:S1104"[Make OPCION_CLIENTES a static final constant or non-public and provide accessors if needed.(â”Á²
+t
+java:S1104"YMake NUEVO_CLIENTE a static final constant or non-public and provide accessors if needed.(”Ô•şÿÿÿÿ
+t
+java:S1104"YMake GRUPO_CLIENTE a static final constant or non-public and provide accessors if needed.(ÙöØ¾øÿÿÿÿ
+u
+java:S1104"ZMake NOMBRE_CLIENTE a static final constant or non-public and provide accessors if needed.(öºÃ˜ÿÿÿÿÿ
+w
+java:S1104"\Make APELLIDO_CLIENTE a static final constant or non-public and provide accessors if needed.(…Å¥«ûÿÿÿÿ
+u
+java:S1104"ZMake CORREO_CLIENTE a static final constant or non-public and provide accessors if needed.(ÚÕÏ²øÿÿÿÿ
+r
+java:S1104"\Make TELEFONO_CLIENTE a static final constant or non-public and provide accessors if needed.(‡†µß
+z
+java:S1104"_Make CONTRASEÃ‘A_CLIENTE a static final constant or non-public and provide accessors if needed.(›™Á÷úÿÿÿÿ
+
+java:S1104"iMake CONFIRMAR_CONTRASEÃ‘A_CLIENTE a static final constant or non-public and provide accessors if needed.(‹‹š¸
+q
+java:S1104"[Make BOLETIN_CLIENTE a static final constant or non-public and provide accessors if needed.(š®ÿ¸
+p
+java:S1104"ZMake ESTADO_CLIENTE a static final constant or non-public and provide accessors if needed.(Çğ
+o
+java:S1104!"ZMake SEGURO_CLIENTE a static final constant or non-public and provide accessors if needed.(”ÿáI
+z
+java:S1104#"_Make BOTON_CREAR_CLIENTE a static final constant or non-public and provide accessors if needed.(á†ıÁùÿÿÿÿ
+h
+java:S1104%"SMake MENSAJE a static final constant or non-public and provide accessors if needed.(ë÷Ûr
+H
+java:S1444	"3Make this "public static MENU_CLIENTES" field final(´Äín
+K
+java:S1444"5Make this "public static OPCION_CLIENTES" field final(â”Á²
+N
+java:S1444"3Make this "public static NUEVO_CLIENTE" field final(”Ô•şÿÿÿÿ
+N
+java:S1444"3Make this "public static GRUPO_CLIENTE" field final(ÙöØ¾øÿÿÿÿ
+O
+java:S1444"4Make this "public static NOMBRE_CLIENTE" field final(öºÃ˜ÿÿÿÿÿ
+Q
+java:S1444"6Make this "public static APELLIDO_CLIENTE" field final(…Å¥«ûÿÿÿÿ
+O
+java:S1444"4Make this "public static CORREO_CLIENTE" field final(ÚÕÏ²øÿÿÿÿ
+L
+java:S1444"6Make this "public static TELEFONO_CLIENTE" field final(‡†µß
+T
+java:S1444"9Make this "public static CONTRASEÃ‘A_CLIENTE" field final(›™Á÷úÿÿÿÿ
+Y
+java:S1444"CMake this "public static CONFIRMAR_CONTRASEÃ‘A_CLIENTE" field final(‹‹š¸
+K
+java:S1444"5Make this "public static BOLETIN_CLIENTE" field final(š®ÿ¸
+J
+java:S1444"4Make this "public static ESTADO_CLIENTE" field final(Çğ
+I
+java:S1444!"4Make this "public static SEGURO_CLIENTE" field final(”ÿáI
+T
+java:S1444#"9Make this "public static BOTON_CREAR_CLIENTE" field final(á†ıÁùÿÿÿÿ
+B
+java:S1444%"-Make this "public static MENSAJE" field final(ë÷Ûr
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÈ‰“
+m
+java:S3008	"XRename this field "MENU_CLIENTES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Äín
+p
+java:S3008"ZRename this field "OPCION_CLIENTES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â”Á²
+s
+java:S3008"XRename this field "NUEVO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ô•şÿÿÿÿ
+s
+java:S3008"XRename this field "GRUPO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙöØ¾øÿÿÿÿ
+t
+java:S3008"YRename this field "NOMBRE_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öºÃ˜ÿÿÿÿÿ
+v
+java:S3008"[Rename this field "APELLIDO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Å¥«ûÿÿÿÿ
+t
+java:S3008"YRename this field "CORREO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÕÏ²øÿÿÿÿ
+q
+java:S3008"[Rename this field "TELEFONO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡†µß
+y
+java:S3008"^Rename this field "CONTRASEÃ‘A_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›™Á÷úÿÿÿÿ
+~
+java:S3008"hRename this field "CONFIRMAR_CONTRASEÃ‘A_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‹š¸
+p
+java:S3008"ZRename this field "BOLETIN_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š®ÿ¸
+o
+java:S3008"YRename this field "ESTADO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çğ
+n
+java:S3008!"YRename this field "SEGURO_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ÿáI
+y
+java:S3008#"^Rename this field "BOTON_CREAR_CLIENTE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á†ıÁùÿÿÿÿ
+g
+java:S3008%"RRename this field "MENSAJE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë÷Ûr

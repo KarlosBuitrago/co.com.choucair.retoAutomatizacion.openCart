@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Hacer una orden de venta en el sistema" skipped="0" tests="1" time="0.56" timestamp="2022-05-18 08:54:03"><testcase name="crear una orden de venta en el sistema"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.choucair.retoAutomatizacion.openCart.stepDefinitions.ventas.OrdenVentaDefinition.queCarlosSeQuiereLoguearEnLaPaginaOpencartparaHacerUnaOrdenDeVenta(OrdenVentaDefinition.java:23)&#13;
+✽.que Carlos se quiere loguear en la pagina opencartpara hacer una orden de venta(src/test/resources/features/ventas/vender.feature:9)&#13;
+</system-err></testcase></testsuite>

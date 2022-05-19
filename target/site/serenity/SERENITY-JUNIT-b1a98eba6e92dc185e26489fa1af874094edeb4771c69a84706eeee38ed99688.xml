@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Crear clientes en el sistema" skipped="0" tests="3" time="33.21" timestamp="2022-05-19 12:01:49"><testcase name="crear cliente para que haga compra online"/><testcase name="crear una orden de venta en el sistema"/><testcase name="Crear una devolucion de producto"/></testsuite>

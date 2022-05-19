@@ -1,0 +1,1124 @@
+<html dir="ltr" lang="en"><head>
+<meta charset="UTF-8">
+<title>Customers</title>
+<base href="https://demo.opencart.com/admin/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<script type="text/javascript" src="view/javascript/jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+<link href="view/stylesheet/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="view/javascript/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+<script src="view/javascript/jquery/datetimepicker/moment/moment.min.js" type="text/javascript"></script>
+<script src="view/javascript/jquery/datetimepicker/moment/moment-with-locales.min.js" type="text/javascript"></script>
+<script src="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<link href="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css" type="text/css" rel="stylesheet" media="screen">
+<link type="text/css" href="view/stylesheet/stylesheet.css" rel="stylesheet" media="screen">
+<script src="view/javascript/common.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+<header id="header" class="navbar navbar-static-top">
+<div class="container-fluid">
+<div id="header-logo" class="navbar-header"><a href="https://demo.opencart.com/admin/index.php?route=common/dashboard&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl" class="navbar-brand"><img src="view/image/logo.png" alt="OpenCart" title="OpenCart"></a></div>
+<a href="#" id="button-menu" class="hidden-md hidden-lg"><span class="fa fa-bars"></span></a>
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="https://demo.opencart.com/image/cache/profile-45x45.png" alt="demo demo" title="demo" id="user-profile" class="img-circle">demo demo <i class="fa fa-caret-down fa-fw"></i></a>
+<ul class="dropdown-menu dropdown-menu-right">
+<li><a href="https://demo.opencart.com/admin/index.php?route=common/profile&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl"><i class="fa fa-user-circle-o fa-fw"></i> Your Profile</a></li>
+<li role="separator" class="divider"></li>
+<li class="dropdown-header">Stores</li>
+<li><a href="https://demo.opencart.com/" target="_blank">Your Store</a></li>
+<li role="separator" class="divider"></li>
+<li class="dropdown-header">Help</li>
+<li><a href="http://www.opencart.com" target="_blank"><i class="fa fa-opencart fa-fw"></i> OpenCart Homepage</a></li>
+<li><a href="http://docs.opencart.com" target="_blank"><i class="fa fa-file-text-o fa-fw"></i> Documentation</a></li>
+<li><a href="http://forum.opencart.com" target="_blank"><i class="fa fa-comments-o fa-fw"></i> Support Forum</a></li>
+</ul>
+</li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=common/logout&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl"><i class="fa fa-sign-out"></i> <span class="hidden-xs hidden-sm hidden-md">Logout</span></a></li>
+</ul>
+</div>
+</header>
+<nav id="column-left">
+<div id="navigation"><span class="fa fa-bars"></span> Navigation</div>
+<ul id="menu" class="in">
+<li id="menu-dashboard"><a href="https://demo.opencart.com/admin/index.php?route=common/dashboard&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl"><i class="fa fa-dashboard fw"></i> Dashboard</a> </li>
+<li id="menu-catalog"><a href="#collapse1" data-toggle="collapse" class="parent collapsed"><i class="fa fa-tags fw"></i> Catalog</a> <ul id="collapse1" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/category&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Categories</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/product&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Products</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/recurring&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Recurring Profiles</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/filter&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Filters</a> </li>
+<li><a href="#collapse5" data-toggle="collapse" class="parent collapsed">Attributes</a> <ul id="collapse5" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/attribute&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Attributes</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/attribute_group&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Attribute Groups</a> </li>
+</ul>
+</li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/option&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Options</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/manufacturer&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Manufacturers</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/download&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Downloads</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/review&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Reviews</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=catalog/information&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Information</a> </li>
+</ul>
+</li>
+<li id="menu-extension"><a href="#collapse14" data-toggle="collapse" class="parent collapsed"><i class="fa fa-puzzle-piece fw"></i> Extensions</a> <ul id="collapse14" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=marketplace/marketplace&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Marketplace</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=marketplace/installer&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Installer</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=marketplace/extension&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Extensions</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=marketplace/modification&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Modifications</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=marketplace/event&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Events</a> </li>
+</ul>
+</li>
+<li id="menu-design"><a href="#collapse20" data-toggle="collapse" class="parent collapsed"><i class="fa fa-television fw"></i> Design</a> <ul id="collapse20" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=design/layout&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Layouts</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=design/theme&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Theme Editor</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=design/translation&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Language Editor</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=design/banner&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Banners</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=design/seo_url&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">SEO URL</a> </li>
+</ul>
+</li>
+<li id="menu-sale"><a href="#collapse26" data-toggle="collapse" class="parent collapsed"><i class="fa fa-shopping-cart fw"></i> Sales</a> <ul id="collapse26" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=sale/order&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Orders</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=sale/recurring&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Recurring Profiles</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=sale/return&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Returns</a> </li>
+<li><a href="#collapse29" data-toggle="collapse" class="parent collapsed">Gift Vouchers</a> <ul id="collapse29" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=sale/voucher&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Gift Vouchers</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=sale/voucher_theme&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Voucher Themes</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="menu-customer" class="active"><a href="#collapse33" data-toggle="collapse" class="parent collapsed"><i class="fa fa-user fw"></i> Customers</a> <ul id="collapse33" class="collapse in">
+<li class="active"><a href="https://demo.opencart.com/admin/index.php?route=customer/customer&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Customers</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=customer/customer_group&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Customer Groups</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=customer/customer_approval&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Customer Approvals</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=customer/custom_field&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Custom Fields</a> </li>
+</ul>
+</li>
+<li id="menu-marketing"><a href="#collapse38" data-toggle="collapse" class="parent collapsed"><i class="fa fa-share-alt fw"></i> Marketing</a> <ul id="collapse38" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=marketing/marketing&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Marketing</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=marketing/coupon&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Coupons</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=marketing/contact&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Mail</a> </li>
+</ul>
+</li>
+<li id="menu-system"><a href="#collapse42" data-toggle="collapse" class="parent collapsed"><i class="fa fa-cog fw"></i> System</a> <ul id="collapse42" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=setting/store&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Settings</a> </li>
+<li><a href="#collapse43" data-toggle="collapse" class="parent collapsed">Localisation</a> <ul id="collapse43" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/location&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Store Location</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/language&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Languages</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/currency&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Currencies</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/stock_status&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Stock Statuses</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/order_status&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Order Statuses</a> </li>
+<li><a href="#collapse48" data-toggle="collapse" class="parent collapsed">Returns</a> <ul id="collapse48" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/return_status&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Return Statuses</a></li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/return_action&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Return Actions</a></li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/return_reason&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Return Reasons</a></li>
+</ul>
+</li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/country&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Countries</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/zone&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Zones</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/geo_zone&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Geo Zones</a> </li>
+<li><a href="#collapse52" data-toggle="collapse" class="parent collapsed">Taxes</a> <ul id="collapse52" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/tax_class&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Tax Classes</a></li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/tax_rate&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Tax Rates</a></li>
+</ul>
+</li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/length_class&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Length Classes</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=localisation/weight_class&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Weight Classes</a> </li>
+</ul>
+</li>
+<li><a href="#collapse56" data-toggle="collapse" class="parent collapsed">Maintenance</a> <ul id="collapse56" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=tool/backup&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Backup / Restore</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=tool/upload&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Uploads</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=tool/log&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Error Logs</a> </li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="menu-report"><a href="#collapse61" data-toggle="collapse" class="parent collapsed"><i class="fa fa-bar-chart-o fw"></i> Reports</a> <ul id="collapse61" class="collapse">
+<li><a href="https://demo.opencart.com/admin/index.php?route=report/report&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Reports</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=report/online&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Who's Online</a> </li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=report/statistics&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Statistics</a> </li>
+</ul>
+</li>
+</ul>
+<div id="stats">
+<ul>
+<li>
+<div>Orders Completed <span class="pull-right">0%</span></div>
+<div class="progress">
+<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"> <span class="sr-only">0%</span></div>
+</div>
+</li>
+<li>
+<div>Orders Processing <span class="pull-right">0%</span></div>
+<div class="progress">
+<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"> <span class="sr-only">0%</span></div>
+</div>
+</li>
+<li>
+<div>Other Statuses <span class="pull-right">0%</span></div>
+<div class="progress">
+<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%"> <span class="sr-only">0%</span></div>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+<div id="content">
+<div class="page-header">
+<div class="container-fluid">
+<div class="pull-right">
+<button type="submit" form="form-customer" data-toggle="tooltip" title="" class="btn btn-primary" data-original-title="Save"><i class="fa fa-save"></i></button>
+<a href="https://demo.opencart.com/admin/index.php?route=customer/customer&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="Cancel"><i class="fa fa-reply"></i></a></div>
+<h1>Customers</h1>
+<ul class="breadcrumb">
+<li><a href="https://demo.opencart.com/admin/index.php?route=common/dashboard&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Home</a></li>
+<li><a href="https://demo.opencart.com/admin/index.php?route=customer/customer&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl">Customers</a></li>
+</ul>
+</div>
+</div>
+<div class="container-fluid"> <div class="panel panel-default">
+<div class="panel-heading">
+<h3 class="panel-title"><i class="fa fa-pencil"></i> Add Customer</h3>
+</div>
+<div class="panel-body">
+<form action="https://demo.opencart.com/admin/index.php?route=customer/customer/add&amp;user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl" method="post" enctype="multipart/form-data" id="form-customer" class="form-horizontal">
+<ul class="nav nav-tabs">
+<li class="active"><a href="#tab-general" data-toggle="tab">General</a></li>
+<li><a href="#tab-affiliate" data-toggle="tab">Affiliate</a></li>
+</ul>
+<div class="tab-content">
+<div class="tab-pane active" id="tab-general">
+<div class="row">
+<div class="col-sm-2">
+<ul class="nav nav-pills nav-stacked" id="address">
+<li class="active"><a href="#tab-customer" data-toggle="tab">General</a></li>
+<li id="address-add"><a onclick="addAddress();"><i class="fa fa-plus-circle"></i> Add Address</a></li>
+</ul>
+</div>
+<div class="col-sm-10">
+<div class="tab-content">
+<div class="tab-pane active" id="tab-customer">
+<fieldset>
+<legend>Customer Details</legend>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-customer-group">Customer Group</label>
+<div class="col-sm-10">
+<select name="customer_group_id" id="input-customer-group" class="form-control">
+<option value="1" selected="selected">Default</option>
+</select>
+</div>
+</div>
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-firstname">First Name</label>
+<div class="col-sm-10">
+<input type="text" name="firstname" value="" placeholder="First Name" id="input-firstname" class="form-control">
+</div>
+</div>
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-lastname">Last Name</label>
+<div class="col-sm-10">
+<input type="text" name="lastname" value="" placeholder="Last Name" id="input-lastname" class="form-control">
+</div>
+</div>
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-email">E-Mail</label>
+<div class="col-sm-10">
+<input type="text" name="email" value="" placeholder="E-Mail" id="input-email" class="form-control">
+</div>
+</div>
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-telephone">Telephone</label>
+<div class="col-sm-10">
+<input type="text" name="telephone" value="" placeholder="Telephone" id="input-telephone" class="form-control">
+</div>
+</div>
+</fieldset>
+<fieldset>
+<legend>Password</legend>
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-password">Password</label>
+<div class="col-sm-10">
+<input type="password" name="password" value="" placeholder="Password" id="input-password" class="form-control" autocomplete="off">
+</div>
+</div>
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-confirm">Confirm</label>
+<div class="col-sm-10">
+<input type="password" name="confirm" value="" placeholder="Confirm" autocomplete="off" id="input-confirm" class="form-control">
+</div>
+</div>
+</fieldset>
+<fieldset>
+<legend>Other</legend>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-newsletter">Newsletter</label>
+<div class="col-sm-10">
+<select name="newsletter" id="input-newsletter" class="form-control">
+<option value="1">Enabled</option>
+<option value="0" selected="selected">Disabled</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-status">Status</label>
+<div class="col-sm-10">
+<select name="status" id="input-status" class="form-control">
+<option value="1" selected="selected">Enabled</option>
+<option value="0">Disabled</option>
+</select>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-safe">Safe</label>
+<div class="col-sm-10">
+<select name="safe" id="input-safe" class="form-control">
+<option value="1">Yes</option>
+<option value="0" selected="selected">No</option>
+</select>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane" id="tab-affiliate">
+<fieldset>
+<legend>Affiliate Details</legend>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-company">Company</label>
+<div class="col-sm-10">
+<input type="text" name="company" value="" placeholder="Company" id="input-company" class="form-control">
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-website">Web Site</label>
+<div class="col-sm-10">
+<input type="text" name="website" value="" placeholder="Web Site" id="input-website" class="form-control">
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-tracking"><span data-toggle="tooltip" title="" data-original-title="The tracking code that will be used to track referrals.">Tracking Code</span></label>
+<div class="col-sm-10">
+<input type="text" name="tracking" value="" placeholder="Tracking Code" id="input-tracking" class="form-control">
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-commission"><span data-toggle="tooltip" title="" data-original-title="Percentage the affiliate receives on each order.">Commission (%)</span></label>
+<div class="col-sm-10">
+<input type="text" name="commission" value="5" placeholder="Commission (%)" id="input-commission" class="form-control">
+</div>
+</div>
+</fieldset>
+<fieldset>
+<legend>Payment Details</legend>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-tax">Tax ID</label>
+<div class="col-sm-10">
+<input type="text" name="tax" value="" placeholder="Tax ID" id="input-tax" class="form-control">
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label">Payment Method</label>
+<div class="col-sm-10">
+<div class="radio">
+<label> <input type="radio" name="payment" value="cheque" checked="checked">
+Cheque</label>
+</div>
+<div class="radio">
+<label> <input type="radio" name="payment" value="paypal">
+PayPal</label>
+</div>
+<div class="radio">
+<label> <input type="radio" name="payment" value="bank">
+Bank Transfer</label>
+</div>
+</div>
+</div>
+<div id="payment-cheque" class="payment" style="display: block;">
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-cheque">Cheque Payee Name</label>
+<div class="col-sm-10">
+<input type="text" name="cheque" value="" placeholder="Cheque Payee Name" id="input-cheque" class="form-control">
+</div>
+</div>
+</div>
+<div id="payment-paypal" class="payment" style="display: none;">
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-paypal">PayPal Email Account</label>
+<div class="col-sm-10">
+<input type="text" name="paypal" value="" placeholder="PayPal Email Account" id="input-paypal" class="form-control">
+</div>
+</div>
+</div>
+<div id="payment-bank" class="payment" style="display: none;">
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-bank-name">Bank Name</label>
+<div class="col-sm-10">
+<input type="text" name="bank_name" value="" placeholder="Bank Name" id="input-bank-name" class="form-control">
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-bank-branch-number">ABA/BSB number (Branch Number)</label>
+<div class="col-sm-10">
+<input type="text" name="bank_branch_number" value="" placeholder="ABA/BSB number (Branch Number)" id="input-bank-branch-number" class="form-control">
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-bank-swift-code">SWIFT Code</label>
+<div class="col-sm-10">
+<input type="text" name="bank_swift_code" value="" placeholder="SWIFT Code" id="input-bank-swift-code" class="form-control">
+</div>
+</div>
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-bank-account-name">Account Name</label>
+<div class="col-sm-10">
+<input type="text" name="bank_account_name" value="" placeholder="Account Name" id="input-bank-account-name" class="form-control">
+</div>
+</div>
+<div class="form-group required">
+<label class="col-sm-2 control-label" for="input-bank-account-number">Account Number</label>
+<div class="col-sm-10">
+<input type="text" name="bank_account_number" value="" placeholder="Account Number" id="input-bank-account-number" class="form-control">
+</div>
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-2 control-label" for="input-affiliate">Status</label>
+<div class="col-sm-10">
+<select name="affiliate" id="input-affiliate" class="form-control">
+<option value="1">Enabled</option>
+<option value="0" selected="selected">Disabled</option>
+</select>
+</div>
+</div>
+</fieldset>
+</div>
+<div class="tab-pane" id="tab-ip">
+<fieldset>
+<legend>IP</legend>
+<div id="ip"><div class="table-responsive">
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<td class="text-left">IP</td>
+<td class="text-right">Total Accounts</td>
+<td class="text-left">Date Added</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="text-center" colspan="3">No results!</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="row">
+<div class="col-sm-6 text-left"></div>
+<div class="col-sm-6 text-right">Showing 0 to 0 of 0 (0 Pages)</div>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script type="text/javascript"><!--
+  $('input[name="affiliate"]').on('change', function() {
+    if ($(this).val() == '1') { 
+      $('#tab-affiliate :input').not('input[name="affiliate"]').prop('disabled', false);
+    } else {
+      $('#tab-affiliate :input').not('input[name="affiliate"]').prop('disabled', true);
+    }
+  }); 
+
+  $('input[name=\'affiliate\']:checked').trigger('change');
+  //--></script>
+<script type="text/javascript"><!--
+  $('select[name=\'customer_group_id\']').on('change', function() {
+    $.ajax({
+      url: 'index.php?route=customer/customer/customfield&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_group_id=' + this.value,
+      dataType: 'json',
+      success: function(json) {
+        $('.custom-field').hide();
+        $('.custom-field').removeClass('required');
+
+        for (i = 0; i < json.length; i++) {
+          custom_field = json[i];
+
+          $('.custom-field' + custom_field['custom_field_id']).show();
+
+          if (custom_field['required']) {
+            $('.custom-field' + custom_field['custom_field_id']).addClass('required');
+          }
+        }
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+      }
+    });
+  });
+
+  $('select[name=\'customer_group_id\']').trigger('change');
+  //--></script>
+<script type="text/javascript"><!--
+  var address_row = 1;
+
+  function addAddress() {
+    html  = '<div class="tab-pane" id="tab-address' + address_row + '">';
+    html += '  <input type="hidden" name="address[' + address_row + '][address_id]" value="" />';
+
+    html += '  <div class="form-group required">';
+    html += '    <label class="col-sm-2 control-label" for="input-firstname' + address_row + '">First Name</label>';
+    html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][firstname]" value="" placeholder="First Name" id="input-firstname' + address_row + '" class="form-control" /></div>';
+    html += '  </div>';
+
+    html += '  <div class="form-group required">';
+    html += '    <label class="col-sm-2 control-label" for="input-lastname' + address_row + '">Last Name</label>';
+    html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][lastname]" value="" placeholder="Last Name" id="input-lastname' + address_row + '" class="form-control" /></div>';
+    html += '  </div>';
+
+    html += '  <div class="form-group">';
+    html += '    <label class="col-sm-2 control-label" for="input-company' + address_row + '">Company</label>';
+    html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][company]" value="" placeholder="Company" id="input-company' + address_row + '" class="form-control" /></div>';
+    html += '  </div>';
+
+    html += '  <div class="form-group required">';
+    html += '    <label class="col-sm-2 control-label" for="input-address-1' + address_row + '">Address 1</label>';
+    html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][address_1]" value="" placeholder="Address 1" id="input-address-1' + address_row + '" class="form-control" /></div>';
+    html += '  </div>';
+
+    html += '  <div class="form-group">';
+    html += '    <label class="col-sm-2 control-label" for="input-address-2' + address_row + '">Address 2</label>';
+    html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][address_2]" value="" placeholder="Address 2" id="input-address-2' + address_row + '" class="form-control" /></div>';
+    html += '  </div>';
+
+    html += '  <div class="form-group required">';
+    html += '    <label class="col-sm-2 control-label" for="input-city' + address_row + '">City</label>';
+    html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][city]" value="" placeholder="City" id="input-city' + address_row + '" class="form-control" /></div>';
+    html += '  </div>';
+
+    html += '  <div class="form-group required">';
+    html += '    <label class="col-sm-2 control-label" for="input-postcode' + address_row + '">Postcode</label>';
+    html += '    <div class="col-sm-10"><input type="text" name="address[' + address_row + '][postcode]" value="" placeholder="Postcode" id="input-postcode' + address_row + '" class="form-control" /></div>';
+    html += '  </div>';
+
+    html += '  <div class="form-group required">';
+    html += '    <label class="col-sm-2 control-label" for="input-country' + address_row + '">Country</label>';
+    html += '    <div class="col-sm-10"><select name="address[' + address_row + '][country_id]" id="input-country' + address_row + '" onchange="country(this, \'' + address_row + '\', \'0\');" class="form-control">';
+      html += '         <option value=""> --- Please Select --- </option>';
+            html += '         <option value="244">Aaland\x20Islands</option>';
+            html += '         <option value="1">Afghanistan</option>';
+            html += '         <option value="2">Albania</option>';
+            html += '         <option value="3">Algeria</option>';
+            html += '         <option value="4">American\x20Samoa</option>';
+            html += '         <option value="5">Andorra</option>';
+            html += '         <option value="6">Angola</option>';
+            html += '         <option value="7">Anguilla</option>';
+            html += '         <option value="8">Antarctica</option>';
+            html += '         <option value="9">Antigua\x20and\x20Barbuda</option>';
+            html += '         <option value="10">Argentina</option>';
+            html += '         <option value="11">Armenia</option>';
+            html += '         <option value="12">Aruba</option>';
+            html += '         <option value="252">Ascension\x20Island\x20\x28British\x29</option>';
+            html += '         <option value="13">Australia</option>';
+            html += '         <option value="14">Austria</option>';
+            html += '         <option value="15">Azerbaijan</option>';
+            html += '         <option value="16">Bahamas</option>';
+            html += '         <option value="17">Bahrain</option>';
+            html += '         <option value="18">Bangladesh</option>';
+            html += '         <option value="19">Barbados</option>';
+            html += '         <option value="20">Belarus</option>';
+            html += '         <option value="21">Belgium</option>';
+            html += '         <option value="22">Belize</option>';
+            html += '         <option value="23">Benin</option>';
+            html += '         <option value="24">Bermuda</option>';
+            html += '         <option value="25">Bhutan</option>';
+            html += '         <option value="26">Bolivia</option>';
+            html += '         <option value="245">Bonaire,\x20Sint\x20Eustatius\x20and\x20Saba</option>';
+            html += '         <option value="27">Bosnia\x20and\x20Herzegovina</option>';
+            html += '         <option value="28">Botswana</option>';
+            html += '         <option value="29">Bouvet\x20Island</option>';
+            html += '         <option value="30">Brazil</option>';
+            html += '         <option value="31">British\x20Indian\x20Ocean\x20Territory</option>';
+            html += '         <option value="32">Brunei\x20Darussalam</option>';
+            html += '         <option value="33">Bulgaria</option>';
+            html += '         <option value="34">Burkina\x20Faso</option>';
+            html += '         <option value="35">Burundi</option>';
+            html += '         <option value="36">Cambodia</option>';
+            html += '         <option value="37">Cameroon</option>';
+            html += '         <option value="38">Canada</option>';
+            html += '         <option value="251">Canary\x20Islands</option>';
+            html += '         <option value="39">Cape\x20Verde</option>';
+            html += '         <option value="40">Cayman\x20Islands</option>';
+            html += '         <option value="41">Central\x20African\x20Republic</option>';
+            html += '         <option value="42">Chad</option>';
+            html += '         <option value="43">Chile</option>';
+            html += '         <option value="44">China</option>';
+            html += '         <option value="45">Christmas\x20Island</option>';
+            html += '         <option value="46">Cocos\x20\x28Keeling\x29\x20Islands</option>';
+            html += '         <option value="47">Colombia</option>';
+            html += '         <option value="48">Comoros</option>';
+            html += '         <option value="49">Congo</option>';
+            html += '         <option value="50">Cook\x20Islands</option>';
+            html += '         <option value="51">Costa\x20Rica</option>';
+            html += '         <option value="52">Cote\x20D\x27Ivoire</option>';
+            html += '         <option value="53">Croatia</option>';
+            html += '         <option value="54">Cuba</option>';
+            html += '         <option value="246">Curacao</option>';
+            html += '         <option value="55">Cyprus</option>';
+            html += '         <option value="56">Czech\x20Republic</option>';
+            html += '         <option value="237">Democratic\x20Republic\x20of\x20Congo</option>';
+            html += '         <option value="57">Denmark</option>';
+            html += '         <option value="58">Djibouti</option>';
+            html += '         <option value="59">Dominica</option>';
+            html += '         <option value="60">Dominican\x20Republic</option>';
+            html += '         <option value="61">East\x20Timor</option>';
+            html += '         <option value="62">Ecuador</option>';
+            html += '         <option value="63">Egypt</option>';
+            html += '         <option value="64">El\x20Salvador</option>';
+            html += '         <option value="65">Equatorial\x20Guinea</option>';
+            html += '         <option value="66">Eritrea</option>';
+            html += '         <option value="67">Estonia</option>';
+            html += '         <option value="68">Ethiopia</option>';
+            html += '         <option value="69">Falkland\x20Islands\x20\x28Malvinas\x29</option>';
+            html += '         <option value="70">Faroe\x20Islands</option>';
+            html += '         <option value="71">Fiji</option>';
+            html += '         <option value="72">Finland</option>';
+            html += '         <option value="74">France,\x20Metropolitan</option>';
+            html += '         <option value="75">French\x20Guiana</option>';
+            html += '         <option value="76">French\x20Polynesia</option>';
+            html += '         <option value="77">French\x20Southern\x20Territories</option>';
+            html += '         <option value="126">FYROM</option>';
+            html += '         <option value="78">Gabon</option>';
+            html += '         <option value="79">Gambia</option>';
+            html += '         <option value="80">Georgia</option>';
+            html += '         <option value="81">Germany</option>';
+            html += '         <option value="82">Ghana</option>';
+            html += '         <option value="83">Gibraltar</option>';
+            html += '         <option value="84">Greece</option>';
+            html += '         <option value="85">Greenland</option>';
+            html += '         <option value="86">Grenada</option>';
+            html += '         <option value="87">Guadeloupe</option>';
+            html += '         <option value="88">Guam</option>';
+            html += '         <option value="89">Guatemala</option>';
+            html += '         <option value="256">Guernsey</option>';
+            html += '         <option value="90">Guinea</option>';
+            html += '         <option value="91">Guinea\x2DBissau</option>';
+            html += '         <option value="92">Guyana</option>';
+            html += '         <option value="93">Haiti</option>';
+            html += '         <option value="94">Heard\x20and\x20Mc\x20Donald\x20Islands</option>';
+            html += '         <option value="95">Honduras</option>';
+            html += '         <option value="96">Hong\x20Kong</option>';
+            html += '         <option value="97">Hungary</option>';
+            html += '         <option value="98">Iceland</option>';
+            html += '         <option value="99">India</option>';
+            html += '         <option value="100">Indonesia</option>';
+            html += '         <option value="101">Iran\x20\x28Islamic\x20Republic\x20of\x29</option>';
+            html += '         <option value="102">Iraq</option>';
+            html += '         <option value="103">Ireland</option>';
+            html += '         <option value="254">Isle\x20of\x20Man</option>';
+            html += '         <option value="104">Israel</option>';
+            html += '         <option value="105">Italy</option>';
+            html += '         <option value="106">Jamaica</option>';
+            html += '         <option value="107">Japan</option>';
+            html += '         <option value="257">Jersey</option>';
+            html += '         <option value="108">Jordan</option>';
+            html += '         <option value="109">Kazakhstan</option>';
+            html += '         <option value="110">Kenya</option>';
+            html += '         <option value="111">Kiribati</option>';
+            html += '         <option value="253">Kosovo,\x20Republic\x20of</option>';
+            html += '         <option value="114">Kuwait</option>';
+            html += '         <option value="115">Kyrgyzstan</option>';
+            html += '         <option value="116">Lao\x20People\x27s\x20Democratic\x20Republic</option>';
+            html += '         <option value="117">Latvia</option>';
+            html += '         <option value="118">Lebanon</option>';
+            html += '         <option value="119">Lesotho</option>';
+            html += '         <option value="120">Liberia</option>';
+            html += '         <option value="121">Libyan\x20Arab\x20Jamahiriya</option>';
+            html += '         <option value="122">Liechtenstein</option>';
+            html += '         <option value="123">Lithuania</option>';
+            html += '         <option value="124">Luxembourg</option>';
+            html += '         <option value="125">Macau</option>';
+            html += '         <option value="127">Madagascar</option>';
+            html += '         <option value="128">Malawi</option>';
+            html += '         <option value="129">Malaysia</option>';
+            html += '         <option value="130">Maldives</option>';
+            html += '         <option value="131">Mali</option>';
+            html += '         <option value="132">Malta</option>';
+            html += '         <option value="133">Marshall\x20Islands</option>';
+            html += '         <option value="134">Martinique</option>';
+            html += '         <option value="135">Mauritania</option>';
+            html += '         <option value="136">Mauritius</option>';
+            html += '         <option value="137">Mayotte</option>';
+            html += '         <option value="138">Mexico</option>';
+            html += '         <option value="139">Micronesia,\x20Federated\x20States\x20of</option>';
+            html += '         <option value="140">Moldova,\x20Republic\x20of</option>';
+            html += '         <option value="141">Monaco</option>';
+            html += '         <option value="142">Mongolia</option>';
+            html += '         <option value="242">Montenegro</option>';
+            html += '         <option value="143">Montserrat</option>';
+            html += '         <option value="144">Morocco</option>';
+            html += '         <option value="145">Mozambique</option>';
+            html += '         <option value="146">Myanmar</option>';
+            html += '         <option value="147">Namibia</option>';
+            html += '         <option value="148">Nauru</option>';
+            html += '         <option value="149">Nepal</option>';
+            html += '         <option value="150">Netherlands</option>';
+            html += '         <option value="151">Netherlands\x20Antilles</option>';
+            html += '         <option value="152">New\x20Caledonia</option>';
+            html += '         <option value="153">New\x20Zealand</option>';
+            html += '         <option value="154">Nicaragua</option>';
+            html += '         <option value="155">Niger</option>';
+            html += '         <option value="156">Nigeria</option>';
+            html += '         <option value="157">Niue</option>';
+            html += '         <option value="158">Norfolk\x20Island</option>';
+            html += '         <option value="112">North\x20Korea</option>';
+            html += '         <option value="159">Northern\x20Mariana\x20Islands</option>';
+            html += '         <option value="160">Norway</option>';
+            html += '         <option value="161">Oman</option>';
+            html += '         <option value="162">Pakistan</option>';
+            html += '         <option value="163">Palau</option>';
+            html += '         <option value="247">Palestinian\x20Territory,\x20Occupied</option>';
+            html += '         <option value="164">Panama</option>';
+            html += '         <option value="165">Papua\x20New\x20Guinea</option>';
+            html += '         <option value="166">Paraguay</option>';
+            html += '         <option value="167">Peru</option>';
+            html += '         <option value="168">Philippines</option>';
+            html += '         <option value="169">Pitcairn</option>';
+            html += '         <option value="170">Poland</option>';
+            html += '         <option value="171">Portugal</option>';
+            html += '         <option value="172">Puerto\x20Rico</option>';
+            html += '         <option value="173">Qatar</option>';
+            html += '         <option value="174">Reunion</option>';
+            html += '         <option value="175">Romania</option>';
+            html += '         <option value="176">Russian\x20Federation</option>';
+            html += '         <option value="177">Rwanda</option>';
+            html += '         <option value="178">Saint\x20Kitts\x20and\x20Nevis</option>';
+            html += '         <option value="179">Saint\x20Lucia</option>';
+            html += '         <option value="180">Saint\x20Vincent\x20and\x20the\x20Grenadines</option>';
+            html += '         <option value="181">Samoa</option>';
+            html += '         <option value="182">San\x20Marino</option>';
+            html += '         <option value="183">Sao\x20Tome\x20and\x20Principe</option>';
+            html += '         <option value="184">Saudi\x20Arabia</option>';
+            html += '         <option value="185">Senegal</option>';
+            html += '         <option value="243">Serbia</option>';
+            html += '         <option value="186">Seychelles</option>';
+            html += '         <option value="187">Sierra\x20Leone</option>';
+            html += '         <option value="188">Singapore</option>';
+            html += '         <option value="189">Slovak\x20Republic</option>';
+            html += '         <option value="190">Slovenia</option>';
+            html += '         <option value="191">Solomon\x20Islands</option>';
+            html += '         <option value="192">Somalia</option>';
+            html += '         <option value="193">South\x20Africa</option>';
+            html += '         <option value="194">South\x20Georgia\x20\x26amp\x3B\x20South\x20Sandwich\x20Islands</option>';
+            html += '         <option value="113">South\x20Korea</option>';
+            html += '         <option value="248">South\x20Sudan</option>';
+            html += '         <option value="195">Spain</option>';
+            html += '         <option value="196">Sri\x20Lanka</option>';
+            html += '         <option value="249">St.\x20Barthelemy</option>';
+            html += '         <option value="197">St.\x20Helena</option>';
+            html += '         <option value="250">St.\x20Martin\x20\x28French\x20part\x29</option>';
+            html += '         <option value="198">St.\x20Pierre\x20and\x20Miquelon</option>';
+            html += '         <option value="199">Sudan</option>';
+            html += '         <option value="200">Suriname</option>';
+            html += '         <option value="201">Svalbard\x20and\x20Jan\x20Mayen\x20Islands</option>';
+            html += '         <option value="202">Swaziland</option>';
+            html += '         <option value="203">Sweden</option>';
+            html += '         <option value="204">Switzerland</option>';
+            html += '         <option value="205">Syrian\x20Arab\x20Republic</option>';
+            html += '         <option value="206">Taiwan</option>';
+            html += '         <option value="207">Tajikistan</option>';
+            html += '         <option value="208">Tanzania,\x20United\x20Republic\x20of</option>';
+            html += '         <option value="209">Thailand</option>';
+            html += '         <option value="210">Togo</option>';
+            html += '         <option value="211">Tokelau</option>';
+            html += '         <option value="212">Tonga</option>';
+            html += '         <option value="213">Trinidad\x20and\x20Tobago</option>';
+            html += '         <option value="255">Tristan\x20da\x20Cunha</option>';
+            html += '         <option value="214">Tunisia</option>';
+            html += '         <option value="215">Turkey</option>';
+            html += '         <option value="216">Turkmenistan</option>';
+            html += '         <option value="217">Turks\x20and\x20Caicos\x20Islands</option>';
+            html += '         <option value="218">Tuvalu</option>';
+            html += '         <option value="219">Uganda</option>';
+            html += '         <option value="220">Ukraine</option>';
+            html += '         <option value="221">United\x20Arab\x20Emirates</option>';
+            html += '         <option value="222">United\x20Kingdom</option>';
+            html += '         <option value="223">United\x20States</option>';
+            html += '         <option value="224">United\x20States\x20Minor\x20Outlying\x20Islands</option>';
+            html += '         <option value="225">Uruguay</option>';
+            html += '         <option value="226">Uzbekistan</option>';
+            html += '         <option value="227">Vanuatu</option>';
+            html += '         <option value="228">Vatican\x20City\x20State\x20\x28Holy\x20See\x29</option>';
+            html += '         <option value="229">Venezuela</option>';
+            html += '         <option value="230">Viet\x20Nam</option>';
+            html += '         <option value="231">Virgin\x20Islands\x20\x28British\x29</option>';
+            html += '         <option value="232">Virgin\x20Islands\x20\x28U.S.\x29</option>';
+            html += '         <option value="233">Wallis\x20and\x20Futuna\x20Islands</option>';
+            html += '         <option value="234">Western\x20Sahara</option>';
+            html += '         <option value="235">Yemen</option>';
+            html += '         <option value="238">Zambia</option>';
+            html += '         <option value="239">Zimbabwe</option>';
+            html += '      </select></div>';
+    html += '  </div>';
+
+    html += '  <div class="form-group required">';
+    html += '    <label class="col-sm-2 control-label" for="input-zone' + address_row + '">Region / State</label>';
+    html += '    <div class="col-sm-10"><select name="address[' + address_row + '][zone_id]" id="input-zone' + address_row + '" class="form-control"><option value=""> --- None --- </option></select></div>';
+    html += '  </div>';
+
+    // Custom Fields
+    
+    html += '  <div class="form-group">';
+    html += '    <label class="col-sm-2 control-label">Default Address</label>';
+    html += '    <div class="col-sm-10"><label class="radio"><input type="radio" name="address[' + address_row + '][default]" value="1" /></label></div>';
+    html += '  </div>';
+
+    html += '</div>';
+
+    $('#tab-general .tab-content').append(html);
+
+    $('select[name=\'customer_group_id\']').trigger('change');
+
+    $('select[name=\'address[' + address_row + '][country_id]\']').trigger('change');
+
+    $('#address-add').before('<li><a href="#tab-address' + address_row + '" data-toggle="tab"><i class="fa fa-minus-circle" onclick="$(\'#address a:first\').tab(\'show\'); $(\'a[href=\\\'#tab-address' + address_row + '\\\']\').parent().remove(); $(\'#tab-address' + address_row + '\').remove();"></i> Address ' + address_row + '</a></li>');
+
+    $('#address a[href=\'#tab-address' + address_row + '\']').tab('show');
+
+    $('.date').datetimepicker({
+		language: 'en-gb',
+		pickTime: false
+    });
+
+	$('.datetime').datetimepicker({
+		language: 'en-gb',
+		pickDate: true,
+		pickTime: true
+    });
+
+    $('.time').datetimepicker({
+		language: 'en-gb',
+		pickDate: false
+    });
+
+    $('#tab-address' + address_row + ' .form-group[data-sort]').detach().each(function() {
+		if ($(this).attr('data-sort') >= 0 && $(this).attr('data-sort') <= $('#tab-address' + address_row + ' .form-group').length) {
+			$('#tab-address' + address_row + ' .form-group').eq($(this).attr('data-sort')).before(this);
+		}
+		
+		if ($(this).attr('data-sort') > $('#tab-address' + address_row + ' .form-group').length) {
+			$('#tab-address' + address_row + ' .form-group:last').after(this);
+		}
+		
+		if ($(this).attr('data-sort') < -$('#tab-address' + address_row + ' .form-group').length) {
+			$('#tab-address' + address_row + ' .form-group:first').before(this);
+		}
+    });
+
+    address_row++;
+  }
+  //--></script>
+<script type="text/javascript"><!--
+  function country(element, index, zone_id) {
+    $.ajax({
+      url: 'index.php?route=localisation/country/country&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&country_id=' + element.value,
+      dataType: 'json',
+      beforeSend: function() {
+        $('select[name=\'address[' + index + '][country_id]\']').prop('disabled', true);
+      },
+      complete: function() {
+        $('select[name=\'address[' + index + '][country_id]\']').prop('disabled', false);
+      },
+      success: function(json) {
+        if (json['postcode_required'] == '1') {
+          $('input[name=\'address[' + index + '][postcode]\']').parent().parent().addClass('required');
+        } else {
+          $('input[name=\'address[' + index + '][postcode]\']').parent().parent().removeClass('required');
+        }
+
+        html = '<option value=""> --- Please Select --- </option>';
+
+        if (json['zone'] && json['zone'] != '') {
+          for (i = 0; i < json['zone'].length; i++) {
+            html += '<option value="' + json['zone'][i]['zone_id'] + '"';
+
+            if (json['zone'][i]['zone_id'] == zone_id) {
+              html += ' selected="selected"';
+            }
+
+            html += '>' + json['zone'][i]['name'] + '</option>';
+          }
+        } else {
+          html += '<option value="0"> --- None --- </option>';
+        }
+
+        $('select[name=\'address[' + index + '][zone_id]\']').html(html);
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+      }
+    });
+  }
+
+  $('select[name$=\'[country_id]\']').trigger('change');
+  //--></script>
+<script type="text/javascript"><!--
+  $('#history').delegate('.pagination a', 'click', function(e) {
+    e.preventDefault();
+
+    $('#history').load(this.href);
+  });
+
+  $('#history').load('index.php?route=customer/customer/history&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0');
+
+  $('#button-history').on('click', function(e) {
+    e.preventDefault();
+
+    $.ajax({
+      url: 'index.php?route=customer/customer/addhistory&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0',
+      type: 'post',
+      dataType: 'json',
+      data: 'comment=' + encodeURIComponent($('#tab-history textarea[name=\'comment\']').val()),
+      beforeSend: function() {
+        $('#button-history').button('loading');
+      },
+      complete: function() {
+        $('#button-history').button('reset');
+      },
+      success: function(json) {
+        $('.alert-dismissible').remove();
+
+        if (json['error']) {
+           $('#tab-history').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> ' + json['error'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+        }
+
+        if (json['success']) {
+          $('#tab-history').prepend('<div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+
+          $('#history').load('index.php?route=customer/customer/history&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0');
+
+          $('#tab-history textarea[name=\'comment\']').val('');
+        }
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+      }
+    });
+  });
+  //--></script>
+<script type="text/javascript"><!--
+  $('#transaction').delegate('.pagination a', 'click', function(e) {
+    e.preventDefault();
+
+    $('#transaction').load(this.href);
+  });
+
+  $('#transaction').load('index.php?route=customer/customer/transaction&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0');
+
+  $('#button-transaction').on('click', function(e) {
+    e.preventDefault();
+
+    $.ajax({
+      url: 'index.php?route=customer/customer/addtransaction&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0',
+      type: 'post',
+      dataType: 'json',
+      data: 'description=' + encodeURIComponent($('#tab-transaction input[name=\'description\']').val()) + '&amount=' + encodeURIComponent($('#tab-transaction input[name=\'amount\']').val()),
+      beforeSend: function() {
+        $('#button-transaction').button('loading');
+      },
+      complete: function() {
+        $('#button-transaction').button('reset');
+      },
+      success: function(json) {
+        $('.alert-dismissible').remove();
+
+        if (json['error']) {
+           $('#tab-transaction').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> ' + json['error'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+        }
+
+        if (json['success']) {
+          $('#tab-transaction').prepend('<div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+
+          $('#transaction').load('index.php?route=customer/customer/transaction&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0');
+
+          $('#tab-transaction input[name=\'amount\']').val('');
+          $('#tab-transaction input[name=\'description\']').val('');
+        }
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+      }
+    });
+  });
+  //--></script>
+<script type="text/javascript"><!--
+  $('#reward').delegate('.pagination a', 'click', function(e) {
+    e.preventDefault();
+
+    $('#reward').load(this.href);
+  });
+
+  $('#reward').load('index.php?route=customer/customer/reward&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0');
+
+  $('#button-reward').on('click', function(e) {
+    e.preventDefault();
+
+    $.ajax({
+      url: 'index.php?route=customer/customer/addreward&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0',
+      type: 'post',
+      dataType: 'json',
+      data: 'description=' + encodeURIComponent($('#tab-reward input[name=\'description\']').val()) + '&points=' + encodeURIComponent($('#tab-reward input[name=\'points\']').val()),
+      beforeSend: function() {
+        $('#button-reward').button('loading');
+      },
+      complete: function() {
+        $('#button-reward').button('reset');
+      },
+      success: function(json) {
+        $('.alert-dismissible').remove();
+
+        if (json['error']) {
+           $('#tab-reward').prepend('<div class="alert alert-danger alert-dismissible"><i class="fa fa-exclamation-circle"></i> ' + json['error'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+        }
+
+        if (json['success']) {
+          $('#tab-reward').prepend('<div class="alert alert-success alert-dismissible"><i class="fa fa-check-circle"></i> ' + json['success'] + ' <button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+
+          $('#reward').load('index.php?route=customer/customer/reward&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0');
+
+          $('#tab-reward input[name=\'points\']').val('');
+          $('#tab-reward input[name=\'description\']').val('');
+        }
+      },
+      error: function(xhr, ajaxOptions, thrownError) {
+        alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+      }
+    });
+  });
+
+  $('#ip').delegate('.pagination a', 'click', function(e) {
+    e.preventDefault();
+
+    $('#ip').load(this.href);
+  });
+
+  $('#ip').load('index.php?route=customer/customer/ip&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl&customer_id=0');
+
+  $('#content').delegate('button[id^=\'button-custom-field\'], button[id^=\'button-address\']', 'click', function() {
+    var node = this;
+
+    $('#form-upload').remove();
+
+    $('body').prepend('<form enctype="multipart/form-data" id="form-upload" style="display: none;"><input type="file" name="file" /></form>');
+
+    $('#form-upload input[name=\'file\']').trigger('click');
+
+    if (typeof timer != 'undefined') {
+        clearInterval(timer);
+    }
+
+    timer = setInterval(function() {
+      if ($('#form-upload input[name=\'file\']').val() != '') {
+        clearInterval(timer);
+
+        $.ajax({
+          url: 'index.php?route=tool/upload/upload&user_token=u9JDD3yCOvZU292wC15dr137YT8M3pCl',
+          type: 'post',
+          dataType: 'json',
+          data: new FormData($('#form-upload')[0]),
+          cache: false,
+          contentType: false,
+          processData: false,
+          beforeSend: function() {
+            $(node).button('loading');
+          },
+          complete: function() {
+            $(node).button('reset');
+          },
+          success: function(json) {
+            $(node).parent().find('.text-danger').remove();
+
+            if (json['error']) {
+              $(node).parent().find('input[type=\'hidden\']').after('<div class="text-danger">' + json['error'] + '</div>');
+            }
+
+            if (json['success']) {
+              alert(json['success']);
+            }
+
+            if (json['code']) {
+              $(node).parent().find('input[type=\'hidden\']').val(json['code']);
+            }
+          },
+          error: function(xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+          }
+        });
+      }
+    }, 500);
+  });
+
+  $('.date').datetimepicker({
+    language: 'en-gb',
+    pickTime: false
+  });
+
+  $('.datetime').datetimepicker({
+    language: 'en-gb',
+    pickDate: true,
+    pickTime: true
+  });
+
+  $('.time').datetimepicker({
+    language: 'en-gb',
+    pickDate: false
+  });
+
+  // Sort the custom fields
+    
+  $('#tab-customer .form-group[data-sort]').detach().each(function() {
+    if ($(this).attr('data-sort') >= 0 && $(this).attr('data-sort') <= $('#tab-customer .form-group').length) {
+      $('#tab-customer .form-group').eq($(this).attr('data-sort')).before(this);
+    }
+
+    if ($(this).attr('data-sort') > $('#tab-customer .form-group').length) {
+      $('#tab-customer .form-group:last').after(this);
+    }
+
+    if ($(this).attr('data-sort') < -$('#tab-customer .form-group').length) {
+      $('#tab-customer .form-group:first').before(this);
+    }
+  });
+
+  $('#tab-affiliate .form-group[data-sort]').detach().each(function() {
+    if ($(this).attr('data-sort') >= 0 && $(this).attr('data-sort') <= $('#tab-affiliate .form-group').length) {
+      $('#tab-affiliate .form-group').eq($(this).attr('data-sort')).before(this);
+    }
+
+    if ($(this).attr('data-sort') > $('#tab-affiliate .form-group').length) {
+      $('#tab-affiliate .form-group:last').after(this);
+    }
+
+    if ($(this).attr('data-sort') < -$('#tab-affiliate .form-group').length) {
+      $('#tab-affiliate .form-group:first').before(this);
+    }
+  });
+  //--></script>
+<script type="text/javascript"><!--
+  $('input[name=\'payment\']').on('change', function() {
+    $('.payment').hide();
+
+    $('#payment-' + this.value).show();
+  });
+
+  $('input[name=\'payment\']:checked').trigger('change');
+  //--></script>
+</div>
+<footer id="footer"><a href="http://www.opencart.com">OpenCart</a> © 2009-2022 All Rights Reserved.<br>Version 3.0.1.1</footer></div>
+
+</body></html>
